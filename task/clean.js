@@ -1,5 +1,6 @@
 var del = require("del");
 var gulp = require("gulp");
+var taskName = require("../util/taskName");
 
 /**
  * Removes files and/or folders matching the glob.
@@ -8,8 +9,11 @@ var gulp = require("gulp");
  * @param {String} [options.name] Postfix :name
  */
 module.exports = function(options) {
-  var name = "clean" + (options.name ? ":" + options.name : "");
+  var name = taskName("clean", options.scope);
+
   gulp.task(name, function(cb) {
     del(options.glob, cb);
   });
+
+  return name;
 };
