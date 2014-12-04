@@ -1,5 +1,5 @@
 {
-  "name": "@solarmosaic/gulp-tasks",
+  "name": "solarmosaic-gulp-tasks",
   "version": "0.1.0",
   "description": "Gulp task repository",
   "scripts": {
