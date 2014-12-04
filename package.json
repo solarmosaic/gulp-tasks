@@ -1,7 +1,8 @@
 {
   "name": "solarmosaic-gulp-tasks",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Gulp task repository",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/solarmosaic/gulp-tasks",
   "devDependencies": {
-    "del": "^1.0.0"
+    "del": "^1.0.0",
+    "gulp": "^3.8.10"
   }
 }
