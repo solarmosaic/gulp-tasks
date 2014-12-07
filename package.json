@@ -1,6 +1,6 @@
 {
   "name": "mosaic-gulp-tasks",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Gulp task repository",
   "main": "index.js",
   "scripts": {
@@ -20,9 +20,11 @@
     "url": "https://github.com/solarmosaic/gulp-tasks/issues"
   },
   "homepage": "https://github.com/solarmosaic/gulp-tasks",
-  "devDependencies": {
+  "dependencies": {
     "del": "^1.0.0",
-    "gulp": "^3.8.10",
     "require-directory": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10"
   }
 }
