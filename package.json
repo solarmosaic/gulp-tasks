@@ -1,6 +1,6 @@
 {
-  "name": "solarmosaic-gulp-tasks",
-  "version": "0.2.1",
+  "name": "mosaic-gulp-tasks",
+  "version": "0.2.2",
   "description": "Gulp task repository",
   "main": "index.js",
   "scripts": {
