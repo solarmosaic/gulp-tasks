@@ -1,2 +1,2 @@
-// Exports all the tasks in the "tasks" folder by basename
-module.exports = require("./utils/getScripts")("./tasks");
+var requireDirectory = require("require-directory");
+module.exports = requireDirectory(module, "./tasks");
