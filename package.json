@@ -24,7 +24,7 @@
     "del": "^1.0.0",
     "glob": "^4.3.1",
     "glob2base": "0.0.12",
-    "gulp": "^3.8.10",
+    "gulp": "^4.0.2",
     "gulp-data-json": "^0.1.0",
     "gulp-data-matter": "^0.1.1",
     "gulp-htmltidy": "^0.1.0",
